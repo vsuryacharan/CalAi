@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Solver</title>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <canvas id="mathCanvas" width="3000" height="1000" style="border:1px solid black;"></canvas>
+    <button id="submit-btn">Solve Equation</button>
+    <div id="result"></div>
+    
+    <!-- Added Image Preview -->
+    <h3>Captured Image:</h3>
+    <img id="image-preview" style="border: 1px solid black; max-width: 300px; display: none;" />
+
+</body>
+</html>
